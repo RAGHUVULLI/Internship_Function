@@ -1,3 +1,14 @@
+#Write a Function in any Ptogramming Language
+#Given a Dictionary D where Key is of form YYYY-MM-DD and its corresponding value is an
+#integer, returns a anew dictionary D with missing valueswhisc are average of prev and next
+#date value.
+#For Example,
+#Input--D={'2019-01-01':100,'2019-01-04':115
+#Output--{'2019-01-01':100,'2019-01-02':105,'2019-01-01=3':110,'2019-01-04':115}
+#
+#Input@2--D={'2019-01-10': 10, '2019-01-11': 20, '2019-01-13': 10}
+#Output@2--{'2019-01-10': 10, '2019-01-11': 20, '2019-01-12': 15, '2019-01-13': 10}
+
 import datetime
 import unittest
 
